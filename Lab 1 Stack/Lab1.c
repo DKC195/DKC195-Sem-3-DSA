@@ -27,7 +27,7 @@ void push(struct Stack *S, int element)
     printf("STACK OVERFLOW\n");
   else
   {
-    S->TOP += 1;
+    S->TOP ++;
     S->data[S->TOP] = element;
     printf("SUCCESS\n");
   }
